@@ -1,4 +1,7 @@
-const Content = () => {
+import React from 'react';
+import {Article} from './Article';
+
+export const Content = () => {
     return(
         <main>
             <section className="posts">

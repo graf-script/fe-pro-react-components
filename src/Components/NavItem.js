@@ -1,4 +1,7 @@
-const NavItem = () => {
+import React from 'react';
+import PropTypes from 'prop-types';
+
+export const NavItem = () => {
     return (
         <nav>
             <ul className="nav-list">

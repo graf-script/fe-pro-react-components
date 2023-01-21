@@ -1,4 +1,5 @@
-const Footer = ({ logoText }) => {
+import React from 'react';
+export const Footer = ({ logoText }) => {
     return (
         <footer className="footer">
             <div className="container">

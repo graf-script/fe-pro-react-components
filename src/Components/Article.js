@@ -1,4 +1,6 @@
-const Article = () => {
+import React from 'react';
+
+export const Article = () => {
     return (
         <ul className="list">
             {Object.values(articles).map(({ headText, mainText }) => {
